@@ -93,9 +93,10 @@ void SceneLissajous::draw_variation_1()
     
     
     ofSetColor(235, 220, 255);
-    mSamplePointsDrawer->drawBox(mPts[0], 0.3);
+//    mSamplePointsDrawer->drawBox(mPts[0], 0.3);
+    mSamplePointsDrawer->drawPoints(mPts[0], ofColor(235, 220, 255), 1);
     
-    ofSetColor(255, 80, 220);
+//    ofSetColor(255, 80, 220);
 //    mSamplePointsDrawer->drawBox(mPts[1], 0.3);
     
     
