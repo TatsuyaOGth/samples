@@ -1,0 +1,10 @@
+hichi_clicks1_run 1;
+hichi_clicks1_int_l 100;
+hichi_clicks1_int_r 100;
+1;
+hichi_clicks1_int_l 100;
+hichi_clicks1_int_r 99;
+2;
+hichi_clicks1_int_l 100;
+hichi_clicks1_int_r 80;
+3;
