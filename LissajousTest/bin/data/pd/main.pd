@@ -1,8 +1,8 @@
-#N canvas 821 33 424 680 10;
+#N canvas 641 163 403 276 10;
 #X declare -path ../p -path ../myosc;
 #X declare -path sounds -path p -path scene -path myosc -path soundtrack
 ;
-#X obj 318 52 adc~ 1;
+#X obj 333 60 adc~ 1;
 #N canvas 94 197 1015 377 SoundOut 0;
 #X obj 36 331 dac~ 1 2 3 4;
 #X obj 36 196 *~;
@@ -106,23 +106,13 @@
 #X connect 45 0 41 0;
 #X connect 46 0 42 0;
 #X connect 47 0 43 0;
-#X restore 36 614 pd SoundOut;
-#X obj 32 469 throw~ out1;
-#X obj 32 494 throw~ out2;
-#X obj 31 522 throw~ out3;
-#X obj 33 547 throw~ out4;
-#X obj 141 469 throw~ out5;
-#X obj 142 494 throw~ out6;
-#X obj 140 522 throw~ out7;
-#X obj 226 464 throw~ out8;
-#X obj 21 64 AudioFileManager;
-#X obj 226 493 throw~ out9;
-#X obj 227 518 throw~ out10;
-#X obj 121 615 hsl 128 15 0 1 0 0 master_vol empty master_vol -2 -8
+#X restore 28 200 pd SoundOut;
+#X obj 21 75 AudioFileManager;
+#X obj 113 201 hsl 128 15 0 1 0 0 master_vol empty master_vol -2 -8
 0 10 -262144 -1 -1 0 1;
-#X obj 39 135 Scene1;
-#X text 317 70 unused;
+#X obj 35 137 Scene1;
+#X text 332 78 unused;
 #X obj 16 15 declare -path sounds -path p -path scene -path myosc -path
 soundtrack;
-#X text 39 116 test sound out;
-#X obj 153 62 SoundTrackManager;
+#X text 35 118 test sound out;
+#X obj 152 75 SoundTrackManager;
